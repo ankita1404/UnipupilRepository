@@ -1,0 +1,12 @@
+2018-09-16 17:26:22,030 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-09-16 17:31:59,605 [Worker-25: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Unipupil:TestFramework:0.0.1-SNAPSHOT @ C:\UnipupilWorkspace\UnipupilTestFramework\pom.xml.
+2018-09-16 17:31:59,605 [Worker-22: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Unipupil:TestFramework:0.0.1-SNAPSHOT @ C:\UnipupilWorkspace\UnipupilTestFramework\pom.xml.
+2018-09-16 17:32:17,478 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-16 17:32:17,478 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UnipupilWorkspace\UnipupilTestFramework\src\main\resources
+2018-09-16 17:32:17,480 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-16 17:32:17,480 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UnipupilWorkspace\UnipupilTestFramework\src\test\resources
+2018-09-16 17:32:19,043 [Worker-19: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Unipupil:TestFramework:0.0.1-SNAPSHOT @ C:\UnipupilWorkspace\UnipupilTestFramework\pom.xml.
+2018-09-16 17:32:20,930 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-16 17:32:20,930 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UnipupilWorkspace\UnipupilTestFramework\src\main\resources
+2018-09-16 17:32:20,932 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-09-16 17:32:20,932 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\UnipupilWorkspace\UnipupilTestFramework\src\test\resources
