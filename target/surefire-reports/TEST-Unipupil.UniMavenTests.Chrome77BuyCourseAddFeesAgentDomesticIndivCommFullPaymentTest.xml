@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="100" failures="1" name="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" time="2,660.81" errors="0" skipped="99">
+<testsuite tests="99" failures="2" name="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" time="9,876.418" errors="0" skipped="94">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
-    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="D:\Automation\UnipupilWorkspace\UniMavenTests"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,9 +17,9 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="D:\Automation\UnipupilWorkspace\UniMavenTests"/>
-    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\Ankita\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -27,420 +27,356 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\New folder (3)\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8223489224610240329.tmp"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files (x86)\sbt\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Spark\Scala\bin;C:\Spark\spark-2.4.3-bin-hadoop2.7\bin;%HADOOP_HOME%\bin;C:\Program Files\Git\cmd;C:\Users\Ankita\AppData\Local\Microsoft\WindowsApps;C:\Hadoop\bin;C:\Spark\spark-2.4.3-bin-hadoop2.7\bin;;C:\Users\Ankita\AppData\Local\Microsoft\WindowsApps;C:\Users\Ankita\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ankita\Downloads\eclipse-jee-oxygen-M2-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Ankita\AppData\Local\Programs\Python\Python37;C:\Program Files\heroku\bin;C:\apache-maven-3.6.1\bin;C:\Users\Ankita\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Ankita\AppData\Local\Programs\Python\Python37\;C:\Users\Ankita\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\Ankita"/>
     <property name="user.timezone" value="Europe/London"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Ankita"/>
-    <property name="java.class.path" value="/C:/Users/Ankita/Downloads/eclipse-jee-oxygen-M2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20160921-2001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_201\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_201"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Automation\UnipupilWorkspace\UniMavenTests\EMBEDDED"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.1\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="setup" time="26.569">
-    <failure message="chrome not reachable
-  (Session info: chrome=78.0.3904.108)
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToHomepage" time="9.258"/>
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agreeCookiePolicy" time="0.698"/>
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionLogin" time="1.546"/>
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="enterInstitutionLoginDetails" time="102.677">
+    <failure message="Expected condition failed: waiting for url to be &quot;https://unipupil.com/user&quot;. Current url: &quot;https://unipupil.com/users/unipupil-university-sample&quot; (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-G420SG1V&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+System info: host: &apos;LAPTOP-G420SG1V&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Ankita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:4892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 67c8116081aad3310c3a14af77a90b15" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=78.0.3904.108)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Ankita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f68557dab79e77aa7b0205389b07fbd" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://unipupil.com/user&quot;. Current url: &quot;https://unipupil.com/users/unipupil-university-sample&quot; (tried for 100 second(s) with 500 milliseconds interval)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-G420SG1V&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+System info: host: &apos;LAPTOP-G420SG1V&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Ankita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:4892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 67c8116081aad3310c3a14af77a90b15
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest.setup(Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest.java:338)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Ankita\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f68557dab79e77aa7b0205389b07fbd
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest.enterInstitutionLoginDetails(Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest.java:374)
 </failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@57fa26b7
-Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest starting
-Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest: &apos;setup&apos; running
-Setting driver
-Using ChromefoxDriverManager to get Chrome driver
-initialising page objects
-Homepage constructor
-LoginPage constructor
-InstitutionListPage constructor
-InstitutionProfilePage constructor
-PublicCourseListPage constructor
-InstitutionCourseListPage constructor
-DomesticCourse constructor
-StudentProfilePage constructor
-CourseClassWorkshopMoreInfoPageDomestic constructor
-CartPage constructor
-CartLineItem constructor
-CartCourseAdditionalFeesLineItem constructor
-CheckoutPage constructor
-CheckoutLineItem constructor
-CheckoutCourseAdditionalFeesLineItem constructor
-ReviewOrderPage constructor
-CartLineItem constructor
-ReviewOrderCourseAdditionalFeesLineItem constructor
-PayPalWebPage constructor
-PayPalLoginPage constructor
-PayPalWebPage constructor
-PayPalSubmitPage constructor
-CompleteOrderPage constructor
-PaymentOrderHistoryPage default constructor
-PaymentOrderHistoryLineItem constructor
-OrderHistoryPage constructor
-AdminProfilePage constructor
-CommissionInstitutionListPage constructor
-AgentProfilePage constructor
-PayPalLivePage constructor
-PayPalLiveLoginPage constructor
-PayPalLivePage constructor
-PayPalSandBoxAgentPage constructor
-PayPalLivePage constructor
-PayPalLiveEduInstPage constructor
-PayPalLivePage constructor
-PayPalSandboxUnipupilPage constructor
-PayPalLivePage constructor
-PayPalLiveStudentPage constructor
-Page objects initialised
+    <system-out>Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest: Test Method 4 &apos;enterInstitutionLoginDetails&apos; running
+username: Unipupil University Sample
+password: Fbdgshic1.
 </system-out>
-    <system-err>Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 16939
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1574682685.470][WARNING]: Timed out connecting to Chrome, retrying...
-Nov 25, 2019 11:51:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1574682690.285][WARNING]: Timed out connecting to Chrome, retrying...
-[1574682694.285][WARNING]: Timed out connecting to Chrome, retrying...
-</system-err>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToHomepage" time="26.594">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="getCourseList" time="102.678">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agreeCookiePolicy" time="26.595">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToCourseEditPage" time="102.678">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionLogin" time="26.596">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="getCourseFees" time="102.678">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="enterInstitutionLoginDetails" time="26.596">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionLogout" time="102.678">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="getCourseList" time="26.596">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentLogin" time="102.678">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToCourseEditPage" time="26.597">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="enterStudentLoginDetails" time="102.678">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="getCourseFees" time="26.597">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="findInstitution" time="102.679">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionLogout" time="26.597">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="selectInstitution" time="102.679">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentLogin" time="26.597">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="selectCourse" time="102.679">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="enterStudentLoginDetails" time="26.598">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="addCourseToCart" time="102.68">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="findInstitution" time="26.598">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartProductName" time="102.68">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="selectInstitution" time="26.598">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartAdditionalFeesTitle" time="102.68">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="selectCourse" time="26.599">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartProductUnitPrice" time="102.681">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="addCourseToCart" time="26.599">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartLinePrice" time="102.681">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartProductName" time="26.599">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartAdditionalFees" time="102.682">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartAdditionalFeesTitle" time="26.599">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkCartSubTotalAgainstGrossFees" time="102.682">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartProductUnitPrice" time="26.6">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkAggregateFeesEqualCartSubtotal" time="102.683">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartLinePrice" time="26.6">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToCheckout" time="102.683">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="cartAdditionalFees" time="26.6">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutLineProductName" time="102.684">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkCartSubTotalAgainstGrossFees" time="26.6">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutAdditionalFeesTitle" time="102.684">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkAggregateFeesEqualCartSubtotal" time="26.6">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutInstitutionTitle" time="102.685">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToCheckout" time="26.601">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutProductUnitPrice" time="102.685">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutLineProductName" time="26.601">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutLinePrice" time="102.686">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutAdditionalFeesTitle" time="26.601">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutAdditionalFees" time="102.686">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutInstitutionTitle" time="26.601">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutTotal" time="102.687">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutProductUnitPrice" time="26.602">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkAggregateFeesEqualCheckoutTotal" time="102.687">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutLinePrice" time="26.602">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="enterAddressAndContinue" time="102.688">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutAdditionalFees" time="26.602">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderHeader" time="102.688">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkoutTotal" time="26.602">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderProductName" time="102.688">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkAggregateFeesEqualCheckoutTotal" time="26.602">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderAdditionalFeesTitle" time="102.689">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="enterAddressAndContinue" time="26.603">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderInstitutionTitle" time="102.689">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderHeader" time="26.603">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderProductUnitPrice" time="102.689">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderProductName" time="26.603">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderLinePrice" time="102.69">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderAdditionalFeesTitle" time="26.604">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderAdditionalFees" time="102.69">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderInstitutionTitle" time="26.604">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderSubTotal" time="102.691">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderProductUnitPrice" time="26.604">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderTotal" time="102.692">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderLinePrice" time="26.605">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="aggregateFeesEqualReviewOrderSubTotal" time="102.692">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderAdditionalFees" time="26.605">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="submitOrder" time="102.693">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderSubTotal" time="26.605">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppLoginPageSummaryAmount" time="102.694">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="reviewOrderTotal" time="26.606">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppLoginPageSummaryTotal" time="102.694">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="aggregateFeesEqualReviewOrderSubTotal" time="26.606">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="payPalLogin" time="102.694">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="submitOrder" time="26.606">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppConfirmPageSummaryAmount" time="102.695">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppLoginPageSummaryAmount" time="26.606">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppConfirmPageSummaryTotal" time="102.695">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppLoginPageSummaryTotal" time="26.607">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppConfirmPayment" time="102.695">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="payPalLogin" time="26.607">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="completeOrderTitle" time="102.695">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppConfirmPageSummaryAmount" time="26.607">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="completeOrderPageMessage" time="102.696">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppConfirmPageSummaryTotal" time="26.608">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryPage" time="102.696">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="ppConfirmPayment" time="26.608">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryHeader" time="102.696">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="completeOrderTitle" time="26.608">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryProductName" time="102.697">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="completeOrderPageMessage" time="26.609">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryProductDescription" time="102.697">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryPage" time="26.609">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryUnitPrice" time="102.698">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryHeader" time="26.609">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryQuantity" time="102.698">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryProductName" time="26.61">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryLinePrice" time="102.701">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryProductDescription" time="26.61">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryAdditionalFees" time="102.701">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryUnitPrice" time="26.61">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryTotal" time="102.702">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryQuantity" time="26.611">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkAggregateFeesEqualPaymentOrderHistoryTotal" time="102.702">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryLinePrice" time="26.611">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToStudentAccount" time="102.702">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryAdditionalFees" time="26.611">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountPurchaseDate" time="102.703">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="paymentOrderHistoryTotal" time="26.612">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountCourseName" time="102.703">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkAggregateFeesEqualPaymentOrderHistoryTotal" time="26.612">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountStartDate" time="102.703">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="goToStudentAccount" time="26.612">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountFinishDate" time="102.705">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountPurchaseDate" time="26.613">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountCoursePrice" time="102.705">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountCourseName" time="26.613">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountAdditionalFeeName" time="102.705">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountStartDate" time="26.613">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountAdditionalFee" time="102.705">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountFinishDate" time="26.614">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountAdditionalFeeTotal" time="102.706">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountCoursePrice" time="26.614">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="adminLogin" time="102.707">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountAdditionalFeeName" time="26.614">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="getCommissionPercentages" time="102.707">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountAdditionalFee" time="26.615">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentLogin" time="102.708">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentAccountAdditionalFeeTotal" time="26.615">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountPurchaseDate" time="102.708">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="adminLogin" time="26.615">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountDisplayedTotalCommissionPercent" time="102.708">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="getCommissionPercentages" time="26.615">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountTotalPaid" time="102.708">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentLogin" time="26.615">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountTotalPrice" time="102.709">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountPurchaseDate" time="26.615">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountTotalRevenue" time="102.709">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountDisplayedTotalCommissionPercent" time="26.615">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkInstitutionAccount" time="102.709">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountTotalPaid" time="26.616">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountOverviewPage" time="102.71">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountTotalPrice" time="26.616">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountDisplayedTotalCommissionPercent" time="102.71">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentAccountTotalRevenue" time="26.616">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountDisplayedAgentPercent" time="102.71">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="checkInstitutionAccount" time="26.616">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountDisplayedInstitutionPercent" time="102.71">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountOverviewPage" time="26.616">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountTotalPaid" time="102.711">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountDisplayedTotalCommissionPercent" time="26.617">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountPurchaseDate" time="102.711">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountDisplayedAgentPercent" time="26.617">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountStartDate" time="102.711">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountDisplayedInstitutionPercent" time="26.617">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountFinishDate" time="102.712">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountTotalPaid" time="26.617">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountCoursePrice" time="102.712">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountPurchaseDate" time="26.617">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountAdditionalFeeName" time="102.712">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountStartDate" time="26.618">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountAdditionalFee" time="102.712">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountFinishDate" time="26.618">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountAdditionalFeeTotal" time="102.713">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountCoursePrice" time="26.618">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentPayPalAccount" time="102.713">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountAdditionalFeeName" time="26.618">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentPaymentStatus" time="102.713">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountAdditionalFee" time="26.619">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="unipupilPayPalAccount" time="102.713">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="institutionAccountAdditionalFeeTotal" time="26.619">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentPayPalAccount" time="102.714">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentPayPalAccount" time="26.619">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPaymentStatus" time="102.714">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="studentPaymentStatus" time="26.619">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPayPalAccountGrossFees" time="102.714">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="unipupilPayPalAccount" time="26.619">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPayPalAccountAgentCommission" time="102.714">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="agentPayPalAccount" time="26.62">
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPayPalAccountUnipupilCommission" time="102.715">
     <skipped/>
   </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPaymentStatus" time="26.62">
-    <skipped/>
-  </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPayPalAccountGrossFees" time="26.62">
-    <skipped/>
-  </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPayPalAccountAgentCommission" time="26.621">
-    <skipped/>
-  </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="eduInstitutionPayPalAccountUnipupilCommission" time="26.621">
-    <skipped/>
-  </testcase>
-  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="shutdown" time="26.621">
-    <skipped/>
+  <testcase classname="Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest" name="shutdown" time="108.739">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Unipupil.TestFramework.pageObjects.UnipupilWebPage.login(UnipupilWebPage.java:90)
+	at Unipupil.UniMavenTests.Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest.shutdown(Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest.java:1308)
+</failure>
+    <system-out>Chrome77BuyCourseAddFeesAgentDomesticIndivCommFullPaymentTest: &apos;shutdown&apos; running
+</system-out>
   </testcase>
 </testsuite>
